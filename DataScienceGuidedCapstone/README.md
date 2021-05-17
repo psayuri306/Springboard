@@ -1,7 +1,7 @@
-# DataScienceGuidedCapstone
+# Big Mountain Resort Problem Statement
 
-Hello students!
-Welcome to the Data Science Guided Capstone! 
+How should Big Mountain Resort choose a better value ticket price by the end of the year without undermining the ticket price. 
+What's the highest price we can support so that it can support the 1.5mil additional cost?
 
 ## Getting Started
 
