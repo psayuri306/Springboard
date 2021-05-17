@@ -3,33 +3,34 @@
 How should Big Mountain Resort choose a better value ticket price by the end of the year without undermining the ticket price. 
 What's the highest price we can support so that it can support the 1.5mil additional cost?
 
-## Getting Started
+## Context
 
-Start by forking this repository to your personal GitHub account and cloning the fork to your local machine. 
+Big Mountain Resort is a very popular ski resort where up to 350,000 will visit their slopes that are suitable for all skill levels. The resort installed an additional lift to increase distribution across the mountain but adding so increased operating costs by $1,540,000. 
+Big Mountain charges a premium above the average of other resorts but this doesn’t tell them how important some facilities are compared to others. Some facilities could charge a higher ticket price than others, ranked on importance. 
+Ticket prices at a typical ski resort varies based on whether a skier/snowboarder wants rentals, and whether they use just the beginner ski area or all of the slopes. Tickets almost always are higher on the weekends and cheaper during the weekdays. Resorts will also have discounts for certain block periods, like half-off from 4pm-closing time. Ticket prices can also spike during traditionally peak times, like winter break, christmas time, etc. Prices can easily vary between eastern state resorts and western state resorts. 
+A resort could be higher end if the elevation is higher, has more chair lifts, more snow blowers, and has more slopes to maintain. Operational costs for a high-end resort could be lowered by reducing the runs or terrain parks that are the least utilized, invest in more efficient snow blowers or reduce the numbers, and optimize chair lift operations. 
 
-**Note**: If forking and cloning a repo is new to you and/or github is new to you then it is strongly suggested to use [GitHub desktop](https://desktop.github.com/) and follow instructions in the docs [here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop).
 
-From https://github.com/springboard-curriculum/DataScienceGuidedCapstone press the green "code" dropdown and then press "Open with GitHub Desktop". This will fork the springboard repository into your own github account and then clone that fork to your local machine - it is in here that you will do your work and push your changes back to your fork of the repo in your own github account. 
+## Criteria For Success
 
-You will find the notebooks in the Notebooks/ directory. 
+Success will be measured by reducing costs by the end of the year and coming up with a new ticket price. 
+Cover 1.5mil of additional operating cost
 
-You will find instructions on how to complete and submit each step of the Guided Capstone in the course materials. Each subunit will focus on one step of the Capstone, corresponding to a step of the Data Science Method. Find the Jupyter Notebook corresponding to the subunit you are working on, and open it. Follow along as you are guided through the work, and fill in the blanks!
+## Scope of Solution Space
 
-When you are done with the notebook, push the changes to your personal GitHub account.
+Reduction of costs will be focused on equipment and operations.  
+Best max ticket (price increase) supportable. And optimize facilities. 
 
-## Pipenv
+## Constraints Within the Solution Space
 
-The `Pipefile` has all the python dependencies and requirements you should need. So you can use [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/) is you want to create a seperate python enviornment for this project. 
+Not having enough data in the dataset - it would be useful to have data about how many people visit these resorts or even how many buy season passes in order to look at demand trends. Also useful to know how many resorts are within a 25 to 50 mile radius of one resort.  
+Would management agree with the price increase? Have to provide evidence to support that, since they're already skeptical about the premium prices. 
 
-To install pipenv see [here](https://pipenv-fork.readthedocs.io/en/latest/#install-pipenv-today).
+## Stakeholders to Provide Key Insight
 
-To create the env and install the required libraries (once you have pipenv installed) you can just do:
-```
-pipenv install
-```
+Director of Operations, Jimmy Blackburn, and Alesha Eisen, the Database Manager.
 
-Then to activate the env and launch jupyter from this env you can do something like the below two commands:
-```
-pipenv shell
-jupyter lab
-```
+## Key Data Sources
+
+CSV file from database manager. The CSV file contains data about prices, specific details about the location of the resorts, and details about the resort. 
+
